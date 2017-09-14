@@ -4,7 +4,7 @@ let assert = chai.assert;
 let converter = require("../app.js");
 
 
-describe("Change English into Infamitory English ", () =>{
+describe("Change English into Inflationary English ", () =>{
     it("if won sounds like one it shoudl return two", ()=>{
         assert.equal(converter("today i won"), "today i two");
     });
